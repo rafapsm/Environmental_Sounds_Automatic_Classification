@@ -21,3 +21,15 @@ In this investigation, I used two datasets from which it became possible to crea
 
 - [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html)
 - [FSD50K](https://annotator.freesound.org/fsd/release/FSD50K/)
+
+##### Sound Pre-processing
+
+It became important to extract some more characteristics of the wave using the Libro-sa library. Thus, data pre-processing consisted of extracting some characteristics: MFCC, SFTF, Honey-scaled power spectrogram, Octave-based spectral contrast and Tonnetz. These characteristics were then concatenated in vectors for each of the audios in the dataset. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55671650/146695383-b2489682-b399-48c6-b2fa-9c003c5df73b.png" width="400" title="Audio pre-processing and feature extraction using the Librosa library">
+</p>
+
+##### Sound Classification
+
+For the classification of sound different Machine Learning algorithms were used. An MLP model was used, a very simple network consisting of an input layer, a hidden layer and an output layer and an XGBoost algorithm combined with GridSearch, which allowed finding the parameters that best fit the type of data.
