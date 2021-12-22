@@ -1,6 +1,7 @@
 # Environmental Sounds Automatic Classification
+#### Rafela Machado and Victor Alves <br /> Centro Algoritmi, University of Minho, Braga, Portugal
 
-> This repository contains source files for my Master Thesis titled, "Environmental Sounds Automatic Classification", at University of Minho.
+> This project is the result of Rafaela Machado (rafapsm98@gmail.com) and Victor Alves (valves@di.uminho.pt) work, having been developed as part of Rafaela Machado's master thesis.
 
 ## Abstract
 
